@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(0,11,17,1) 18%, rgba(0,212,255,1) 84%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    scroll-behavior: smooth;
+}
+
+.nav {
+    background-color: #2f2f30;
+    
+    width: 100%;
+    height: 7%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+    
+  height: 100%;
+}
+
+li {
+    display: inline;
+    float: left;
+    
+    height: 100%;
+    overflow: hidden;
+}
+
+a {
+    height: 100%;
+    
+    display: block;
+    line-height: 100%;
+    
+    padding: 12px;
+    
+    background-color: #2f2f30;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+}
+
+.spacer {
+    width: 100%;
+    height: 1%;
+    background-color: white;
+}
+
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'PT Mono', monospace;
+    font-size: 48px;
+    
+    color: white;
+    
+    
+    
+    width: 100%;
+    height: 84%;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body {
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    
+    color: white;
+    background-color: #2f2f30;
+    
+    width: 100%;
+    height: 100%;
+}
